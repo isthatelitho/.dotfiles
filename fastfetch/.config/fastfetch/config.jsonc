@@ -27,27 +27,27 @@
     {
       "type": "custom",
       "format": "  \u001b[33m OS: \u001b[38;5;188mEndeavour OS :3",
-      "keyColor": "38;5;226"  // Dark Blue
+      "keyColor": "38;5;226"  // Yellow
     },
     {
       "type": "kernel",
       "key": "  \u001b[34m Kernel",
-      "keyColor": "38;5;196"  // White
+      "keyColor": "38;5;196"  // Blue
     },
     {
       "type": "packages",
       "key": "  \u001b[35m󰏗 Packages",
-      "keyColor": "38;5;226"  // Keeping the same
+      "keyColor": "38;5;226"  // Purple(?)
     },
     {
       "type": "display",
       "key": "  󱍜 Display",
-      "keyColor": "38;5;214"  // Random: Bright Orange
+      "keyColor": "38;5;214"  // Bright Orange
     },
     {
       "type": "wm",
       "key": "  \u001b[31m WM",
-      "keyColor": "38;5;214"  // Light Blue
+      "keyColor": "38;5;214"  // Red
     },
     {
       "type": "terminal",
@@ -57,7 +57,7 @@
     {
       "type": "media",
       "key": "  \u001b[36m󰝚  Music",
-      "keyColor": "38;5;239"
+      "keyColor": "38;5;239"  // Cyan
     },
     {
       "type": "command",
@@ -67,7 +67,7 @@
      {
             "type": "uptime",
             "key": "  \u001b[38;5;214m Uptime",
-            "keyColor": "38;5;196",
+            "keyColor": "38;5;196",  // Yellow
         },
     {
       "type": "custom",
@@ -77,7 +77,7 @@
     {
       "type": "title",
       "key": "  \u001b[32m User",
-      "keyColor": "38;5;250"  // Black
+      "keyColor": "38;5;250"  // Green
     },
     {
       "type": "custom",
