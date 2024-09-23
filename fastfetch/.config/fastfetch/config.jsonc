@@ -26,7 +26,7 @@
     },
     {
       "type": "custom",
-      "format": "  \u001b[33m OS: \u001b[38;5;188mArch OS :3",
+      "format": "  \u001b[33m OS: \u001b[38;5;188mEndeavour OS :3",
       "keyColor": "38;5;226"  // Dark Blue
     },
     {
