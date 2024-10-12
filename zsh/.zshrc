@@ -21,8 +21,8 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 plugins=(
 	git aliases dotenv docker docker-compose
-	fzf gradle kitty mvn nvm pip pm2 python
-	tldr vscode yarn rust ssh sudo systemd
+	fzf kitty mvn nvm pip pm2 python
+	tldr rust ssh sudo systemd zsh-history-substring-search
 )
 
 source $ZSH/oh-my-zsh.sh
