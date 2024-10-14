@@ -3,7 +3,8 @@ HISTFILE=$HOME/.config/zsh/zhistory
 HISTSIZE=5000
 SAVEHIST=5000
 
-
+export GTK_USE_PORTAL=1
+export GDK_DEBUG=portals
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh --cmd cd)"
 
@@ -26,4 +27,3 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
