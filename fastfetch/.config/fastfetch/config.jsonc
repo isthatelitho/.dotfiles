@@ -35,11 +35,6 @@
       "keyColor": "38;5;196"  // Blue
     },
     {
-      "type": "packages",
-      "key": "  \u001b[35m󰏗 Packages",
-      "keyColor": "38;5;226"  // Purple(?)
-    },
-    {
       "type": "display",
       "key": "  󱍜 Display",
       "keyColor": "38;5;214"  // Bright Orange
