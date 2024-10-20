@@ -27,3 +27,9 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+
+########################
+
+alias um="unimatrix"
+alias qt="./qtfilepicker.sh"

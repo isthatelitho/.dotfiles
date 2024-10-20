@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d 1 2 3 4 5  
 
 bspc config border_width         2
 bspc config window_gap           4
@@ -12,14 +12,16 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config focus_follows_pointer true
 
-#AutoStart Apps 
+#AutoStart Apps
+ 
+polybar &
 sxhkd &
 lxappearence &
 picom --daemon --backend glx --vsync --config /dev/null &
+#picom &
 nitrogen --restore &
 dunst & 
-polybar &
-exec --no-startup-id /usr/lib/pam_kwallet_init
-XDG_CURRENT_DESKTOP="KDE" /usr/lib/xdg-desktop-portal-kde &
-XDG_CURRENT_DESKTOP="KDE" /usr/lib/xdg-desktop-portal &
+exec --no-startup-id /usr/lib/pam_kwallet_init &
+xsetroot -cursor_name left_ptr &
 
+./qtfilepicker.sh
