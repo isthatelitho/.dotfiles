@@ -2,6 +2,17 @@
 # wm independent hotkeys
 #
 
+# toggle lockscreen
+super + l
+	exec ./rickMortyLock.sh
+# toggle warp
+super + v
+	exec ./toggle-warp.sh
+
+# toggle picom
+super + p 
+	exec ./toggle-picom.sh
+
 # terminal emulator
 super + Return
 	kitty
@@ -28,10 +39,6 @@ Print
 # Reload sxhkdrc
 super + shift + r
     pkill -usr1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config'
-
-# lockscreen
-super + l
-    betterlockscreen -l blur
 
 # Show clipmenu
 alt + v
